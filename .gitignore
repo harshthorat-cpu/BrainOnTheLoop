@@ -1,0 +1,143 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+pip-log.txt
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ==============================
+# macOS / Windows / Linux
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+desktop.ini
+*~
+
+# ==============================
+# IDEs & editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.spyderproject
+.ropeproject
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==============================
+# RL generated outputs
+# ==============================
+# Videos & recordings (gym RecordVideo, imageio, etc.)
+videos/
+video/
+recordings/
+*.mp4
+*.avi
+*.gif
+*.mov
+
+# Plots / learning curves
+plots/
+figures/
+learning_curve*.png
+
+# Saved Q-tables, models, checkpoints
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+*.onnx
+*.joblib
+*.zip
+models/
+checkpoints/
+saved_models/
+q_tables/
+
+# ==============================
+# Experiment tracking & logs
+# ==============================
+logs/
+log/
+*.log
+# TensorBoard
+runs/
+tensorboard/
+tb_logs/
+lightning_logs/
+# Weights & Biases
+wandb/
+# MLflow
+mlruns/
+# Hydra
+outputs/
+multirun/
+.neptune/
+.comet/
+.clearml/
+
+# ==============================
+# Stable-Baselines3 / RLlib / Ray
+# ==============================
+ray_results/
+sb3_logs/
+
+# ==============================
+# Datasets & replay buffers
+# ==============================
+data/
+datasets/
+*.csv
+*.parquet
+replay_buffer*
+*.rb
+
+# ==============================
+# Testing & coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+ 
+# ==============================
+# Secrets & config (never commit these)
+# ==============================
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+config.local.*
